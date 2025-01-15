@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+
+body{
+
+  font-family: "Roboto Slab", serif;
+  background-color: #ffffff;
+
+}
+
+.ma{
+
+  background-color: rgb(203, 244, 244);
+}
+.na{
+
+  
+  font-size: 50px;
+  background-color: rgb(60, 60, 60);
+  font-weight: bolder;
+  text-align: center;
+  color: antiquewhite;
+}
+
+
+
+
+.task{
+
+  border: 1px solid black;
+  margin-left: 22%;
+  width:20%;
+  font-size: 15px;
+  color: black;
+  margin-top: 10px;
+  padding: 4px 2px;
+}
+
+.task:hover{
+
+  border: 3px solid black;
+  
+}
+
+.dec{
+
+  border: 1px solid black;
+  margin-left: 2%;
+  width:20%;
+  font-size: 15px;
+  color: black;
+  margin-top: 10px;
+  padding: 4px 2px;
+  /* transition: 0.1s; */
+}
+
+.dec:hover{
+
+  border: 3px solid black;
+  
+}
+
+.sub{
+
+  background-color: black;
+  color: white;
+  width: 8%;
+  font-size: 20px;
+  margin-left: 4%;
+  margin-top: 12px;
+  padding: 5px;
+
+  transition: 0.5s;
+}
+
+.sub:hover{
+
+  background: #4a4949;
+  border-radius: 20px;
+
+}
+
+.dele{
+
+  background-color: rgb(255, 0, 0);
+  padding: 6px;
+  margin: 2px;
+  color: wheat;
+  font-size: 18px;
+  font-weight: 500;
+  width: 8%;
+  transition: 0.5s;
+}
+
+.dele:hover{
+
+  background: #f65c5c;
+  font-weight: 900;
+  border-radius: 20px;
+
+
+}
